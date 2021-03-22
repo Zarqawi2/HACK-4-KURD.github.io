@@ -1,0 +1,52 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.nav{
+	height: 40px;
+	background:rgb(30, 105, 134);
+    
+}
+.nav div{
+	display: inline-block;
+	position: absolute;
+	left: 4px;
+	padding: 3px;
+	font-size: 30px;
+	color:lightgoldenrodyellow;
+}
+.nav ul{
+	position: absolute;
+	right: 5px;
+}
+.nav ul li{
+	display:inline-block;
+	margin: 12px;
+}
+.nav ul li a{text-decoration: none;
+    
+	color:white;
+	padding: 4px;
+    
+}
+.home{
+    background: url("../image/tech.jpg");
+    background-size:cover ;
+    height: 95vh;
+   
+}
+
+.text-container {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50vh;
+}
+.text-container div {
+	padding: 4px;
+	background-color: rgba(55, 130, 228, 0.7);
+
+}
+
+
